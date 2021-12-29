@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+3D&display=swap');
+
+body{
+    background-color: #F9FBC9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-color: lightcoral;
+    padding: 10px;
+}
+
+h1 {
+    color: rgb(12, 26, 181)
+}
+
+h3 {
+    background-color: aquamarine;
+    color: darkmagenta;
+    padding: 1%;
+}
+
+/* div{
+    font-size: 10px;
+} */
+
+p{
+    color: hsl(346, 88%, 36%);
+    font-family: 'Rock 3D', Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 1.4rem;
+    line-height: 1.1em;
+}
+
+#second-p{
+    color: hsl(249, 88%, 19%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 1.2em;
+}
+
+#box-model{
+    background-color: lightcyan;
+    width: 300px;
+    /* border: 15px solid green; */
+    border-top: 10px solid red;
+    border-bottom: 10px solid black;
+    /* padding: 50px; */
+
+    padding: 10px 5px;
+    
+    /* margin: 20px; */
+
+    /* margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px; */
+
+    /* margin: 5px 10px 5px 10px; */
+
+    margin: 5px 10px;
+}
