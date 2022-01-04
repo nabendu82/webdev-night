@@ -158,6 +158,9 @@ p{
     height: 500px;
     border: 1px solid black;
     position: relative;
+    background-image: url('./images/large-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .position-box h1{
@@ -175,4 +178,24 @@ p{
 .fixed-button{
     position: fixed;
     top: 0;
+}
+
+.my-list li:first-child{
+    background: rebeccapurple;
+}
+
+.my-list li:last-child{
+    background: royalblue;
+}
+
+.my-list li:nth-child(2){
+    background: darkorange;
+}
+
+.dynamic-list li:nth-child(even){
+    background: darkorange;
+}
+
+.dynamic-list li:nth-child(odd){
+    background: darkmagenta;
 }
